@@ -1,84 +1,80 @@
-<!DOCTYPE html>
-<html lang="en" >
+<<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>CodePen - SCSS: Staggered 2-Column Image Gallery</title>
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&amp;display=swap'><link rel="stylesheet" href="./style.css">
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;display=swap'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
-	<header>
-		<a style="text-decoration: none" href="#" class="logo">
-			<img src="./logoblack.jpeg" style="width:40px;height:30px;">
-			Aristo Builders
-		</a>
-		<input type="checkbox" id="active">
+<header>
+    <a style="text-decoration: none" href="#" class="logo">
+      <img src="../rayyan.jpeg" style="width:40px;height:30px;">
+      Rayyan Archictecture
+    </a>
+    <input type="checkbox" id="active">
     <label for="active" class="menu-btn"><span></span></label>
     <label for="active" class="close"></label>
     <div class="wrapper">
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="./portfolio/index.html">RayyanArchitecture</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="#About">About</a></li>
         <li><a href="./login.html">Login</a></li>
-        <li><a href="./contact/index.html">Contact</a></li>
-        <li><a href="./portfolio/index.html">Portfolio</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        <li><a href="#gallery">Portfolio</a></li>
         
       </ul>
     </div>
-	</header>
-<!-- partial:index.partial.html -->
-<div class="staggered-grid">
-	<div class="picture-container">
-		 <a href="" target="_blank" rel="noreferrer noopener nofollow"> 
-			<span>Project 1</span>
-			<b>@benchaccounting</b>
-		</a>
-	</div>
-	<div class="picture-container">
-		<a href="" target="_blank" rel="noreferrer noopener nofollow">
-			<span>Picture taken from Unsplash</span>
-			<b>@jazminantoinette</b>
-		</a>
-	</div>
-	<div class="picture-container">
-		<a href="" target="_blank" rel="noreferrer noopener nofollow">
-			<span>Picture taken from Unsplash</span>
-			<b>@brookelark</b>
-		</a>
-	</div>
-	<div class="picture-container">
-		<a href="" target="_blank" rel="noreferrer noopener nofollow">
-			<span>Picture taken from Unsplash</span>
-			<b>@laurenmancke</b>
-		</a>
-	</div>
-	<div class="picture-container">
-		<a href="" target="_blank" rel="noreferrer noopener nofollow">
-			<span>Picture taken from Unsplash</span>
-			<b>@joannakosinska</b>
-		</a>
-	</div>
-	<div class="picture-container">
-		<a href="" target="_blank" rel="noreferrer noopener nofollow">
-			<span>Picture taken from Unsplash</span>
-			<b>@maartendeckers</b>
-		</a>
-	</div>
-	<div class="picture-container">
-		<a href="" target="_blank" rel="noreferrer noopener nofollow">
-			<span>Picture taken from Unsplash</span>
-			<b>@brookelark</b>
-		</a>
-	</div>
-	<div class="picture-container">
-		<a href="" target="_blank" rel="noreferrer noopener nofollow">
-			<span>Picture taken from Unsplash</span>
-			<b>@freestocks</b>
-		</a>
-	</div>
+  </header>
+
+<section class="galleryy" id="gallery">
+       <h1>Gallery</h1>
+<div class="grid-container">
+  <div>
+    <img class='grid-item grid-item-1' src='../img/img10.jpeg' alt=''>
+    <p>"Interior Design"</p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-2' src='../img/img1.jpeg' alt=''>
+    <p>"Architecture Design"</p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-3' src='../img/img2.jpeg' alt=''>
+    <p>"Architecture Design"</p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-4' src='../img/img3.jpeg' alt=''>
+    <p>"Architecture Design"</p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-5' src='../img/img4.jpeg' alt=''>
+    <p>"Architecture Design"</p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-6' src='../img/img5.jpeg' alt=''>
+    <p>"Architecture Design"</p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-7' src='../img/img6.jpeg' alt=''>
+    <p>"Interior Design"</p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-8' src='../img/img7.jpeg' alt=''>
+    <p>"Interior Design"</p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-9' src='../img/img8.jpeg' alt=''>
+    <p>"Interior Design"</p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-10' src='../img/img9.jpeg' alt=''>
+    <p>"Interior Design"</p>
+  </div>
 </div>
-<!-- partial -->
-  
-</body>
+     </section>
+     </body>
 </html>
